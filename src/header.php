@@ -25,6 +25,14 @@
 
 	</head>
 	<body <?php body_class(); ?>>
+		<!-- <span id="audioControl" class="volume-on"></span> -->
+
+		<div class="social">
+			<a href="https://www.instagram.com/frankelsdeli/" target="_blank"><span class="instagram"></span></a>
+			<a href="https://www.facebook.com/Frankels-Delicatessen-1079715952070742/" target="_blank"><span class="facebook"></span></a>
+		</div>
+
+		<div class="temp-logo"></div>
 
 		<!-- wrapper -->
 		<div class="wrapper">
@@ -35,7 +43,7 @@
 					<!-- logo -->
 					<div class="logo">
 						<!-- svg logo - toddmotto.com/mastering-svg-use-for-a-retina-web-fallbacks-with-png-script -->
-						<img src="<?php echo get_template_directory_uri(); ?>/img/logo1.jpg" alt="Logo" class="logo-img">
+						<!-- <img src="<?php // echo get_template_directory_uri(); ?>/img/logo1.jpg" alt="Logo" class="logo-img"> -->
 					</div>
 					<!-- /logo -->
 

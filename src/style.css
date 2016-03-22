@@ -282,3 +282,66 @@ input[type="search"] {
 .logo {
   text-align: center;
 }
+
+html, body {
+  width: 100%;
+  height: 100%;
+}
+
+.temp-logo {
+    position: relative;
+    top: 50%;
+    transform: translateY(-50%);
+    text-align: center;
+    background-image: url('img/logo1.jpg');
+    height: 100%;
+    background-repeat: no-repeat;
+    max-height: 700px;
+    background-position: center;
+    background-size: contain;
+}
+
+.volume-on {
+  background-image: url(fonts/glyphicons_free/glyphicons/png/glyphicons-185-volume-up.png);
+  width: 50px;
+  height: 50px;
+  display: block;
+  background-repeat: no-repeat;
+  background-position: center;
+}
+
+.volume-off {
+  background-image: url(fonts/glyphicons_free/glyphicons/png/glyphicons-183-mute.png);
+  width: 50px;
+  height: 50px;
+  display: block;
+  background-repeat: no-repeat;
+  background-position: center;
+}
+
+.social {
+  position: absolute;
+  top: 30px;
+  width: 100%;
+  text-align: center;
+}
+.social a {
+  padding: 0 5px;
+}
+span.instagram {
+  width: 50px;
+  height: 50px;
+  background-image: url('img/icons/instagram.png');
+  display: inline-block;
+  background-position: center;
+  background-size: contain;
+}
+
+span.facebook {
+  width: 50px;
+  height: 50px;
+  background-image: url('img/icons/facebook.png');
+  display: inline-block;
+  background-position: center;
+  background-size: contain;
+}
